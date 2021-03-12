@@ -1,4 +1,19 @@
-body {background-color:black; font:arial}
-h1{color:gray; font:veranda}
-.maindiv {background-color:white; color:black; width:300; padding:20px; border-radius:25px; margin:auto}
-
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  color: gray;
+  font-family: Veranda, Helvetica, sans-serif;
+}
+.maindiv {
+  background-color: white;
+  color: black;
+  width: 300;
+  padding: 25px;
+  border-radius: 25px;
+  margin: auto;
+}
+.mark {
+  background-color: yellow;
+}
