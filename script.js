@@ -2,6 +2,11 @@ function compute()
 {
     // Function for calculation of the interest bind to the Compute button
     principal = document.getElementById("principal").value;
+    // validate if the Principal value is above zero, otherwise display an Alert
+    if (principal <=0) {
+    		alert("Enter a positive number");
+        document.getElementById("principal").focus();
+    }
     rate = document.getElementById("rate").value;
     years = document.getElementById("years").value;
     // Calculate the interest
