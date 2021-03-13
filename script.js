@@ -4,8 +4,10 @@ function compute()
     principal = document.getElementById("principal").value;
     // validate if the Principal value is above zero, otherwise display an Alert
     if (principal <=0) {
-    		alert("Enter a positive number");
+    	alert("Enter a positive number");
         document.getElementById("principal").focus();
+        document.getElementById("result").innerHTML ="";
+        return;
     }
     rate = document.getElementById("rate").value;
     years = document.getElementById("years").value;
